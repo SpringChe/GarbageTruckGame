@@ -1,0 +1,31 @@
+body{
+	display:grid;
+	height: 50vh;
+	justify-items: center;
+	background-color: rgb(77, 198, 227);
+	font-size: 35px;
+	color: floralwhite;
+	font-family: fantasy;
+
+
+}
+#myGame{
+	align-self: center;
+	height: 50px;
+	width: 800px;
+}
+#my_element {
+	position: fixed;
+  	bottom: 0;
+  
+  	/* Align in the center of the page too */
+  	left: 50%;
+  	transform: translate(-50%, 0);
+  
+  	margin-bottom: 2%; /* Add some space before the border */
+
+  	color: white;
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  	letter-spacing: 5px;
+
+}
